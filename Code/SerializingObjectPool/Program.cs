@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ObjectPool
+namespace SerializingObjectPool
 {
     class Program
     {
@@ -70,6 +70,7 @@ namespace ObjectPool
 
         public void Log(string message)
         {
+            Thread.Sleep(1000);
             Console.WriteLine("{0}: {1} ({2})", _name, message, Thread.CurrentThread.ManagedThreadId);
         }
 

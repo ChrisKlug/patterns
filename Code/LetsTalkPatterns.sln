@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPool", "ObjectPool\ObjectPool.csproj", "{36FFEC86-387C-4843-BDBF-AA45CA84C6D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializingObjectPool", "SerializingObjectPool\SerializingObjectPool.csproj", "{36FFEC86-387C-4843-BDBF-AA45CA84C6D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectPool", "ObjectPool", "{B856CB3C-1835-426A-BD7C-AE3DCD7C1DEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleObjectPool", "SimpleObjectPool\SimpleObjectPool.csproj", "{6889D68D-B739-4DB6-94D8-FB200D2CCFD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,17 @@ Global
 		{36FFEC86-387C-4843-BDBF-AA45CA84C6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36FFEC86-387C-4843-BDBF-AA45CA84C6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36FFEC86-387C-4843-BDBF-AA45CA84C6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6889D68D-B739-4DB6-94D8-FB200D2CCFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6889D68D-B739-4DB6-94D8-FB200D2CCFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6889D68D-B739-4DB6-94D8-FB200D2CCFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6889D68D-B739-4DB6-94D8-FB200D2CCFD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36FFEC86-387C-4843-BDBF-AA45CA84C6D5} = {B856CB3C-1835-426A-BD7C-AE3DCD7C1DEA}
+		{6889D68D-B739-4DB6-94D8-FB200D2CCFD6} = {B856CB3C-1835-426A-BD7C-AE3DCD7C1DEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6EF64AB-8BC6-41E6-BAD0-FE76DEC6B827}

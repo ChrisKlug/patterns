@@ -12,10 +12,6 @@ namespace BadSingleton
 
     class Logger
     {
-        static Logger()
-        {
-            Instance = new Logger();
-        }
         private Logger() {}
 
         public void Log(string message)
@@ -23,6 +19,6 @@ namespace BadSingleton
             Console.WriteLine(message);
         }
 
-        public static Logger Instance { get; private set; }
+        public static Logger Instance { get; } = new Logger();
     }
 }

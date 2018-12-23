@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingletonInstance
+namespace SingletonInterface
 {
     class Program
     {
@@ -9,13 +9,13 @@ namespace SingletonInstance
             // Default
             Logger.Instance.Log("Test");
 
-            // With configuration
-            Logger.Initialize("Prefix");
-            Logger.Instance.Log("Test2");
+            //// With configuration
+            //Logger.Initialize("Prefix");
+            //Logger.Instance.Log("Test2");
 
-            // With custom implementation
-            Logger.Initialize(new FancyConsoleLogger("Red", ConsoleColor.Red));
-            Logger.Instance.Log("Test");
+            //// With custom implementation
+            //Logger.Initialize(new FancyConsoleLogger("Red", ConsoleColor.Red));
+            //Logger.Instance.Log("Test");
         }
     }
 
@@ -41,10 +41,10 @@ namespace SingletonInstance
 
         private static void EnsureNotInitialized()
         {
-            //if (_instance != null)
-            //{
-            //    throw new InvalidOperationException("Can only initialize class once");
-            //}
+            if (_instance != null)
+            {
+                throw new InvalidOperationException("Can only initialize class once");
+            }
         }
 
         public static ILogger Instance

@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Factory\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFactoryMethod", "Factory\StaticFactoryMethod\StaticFactoryMethod.csproj", "{72409B0B-97E2-42A1-A9AC-C2FFDD8FAA46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericFactory", "Factory\GenericFactory\GenericFactory.csproj", "{D0FF5F98-B6B3-48C7-8E2C-1B5094F48A23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{72409B0B-97E2-42A1-A9AC-C2FFDD8FAA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72409B0B-97E2-42A1-A9AC-C2FFDD8FAA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72409B0B-97E2-42A1-A9AC-C2FFDD8FAA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FF5F98-B6B3-48C7-8E2C-1B5094F48A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FF5F98-B6B3-48C7-8E2C-1B5094F48A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FF5F98-B6B3-48C7-8E2C-1B5094F48A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FF5F98-B6B3-48C7-8E2C-1B5094F48A23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{E8AC731A-5BB6-46F3-BFD2-99CB64D9A27D} = {3A8598D6-F354-4B33-84C9-9CEAA91C3177}
 		{2B03A612-7186-4234-995B-AB83ACD9A253} = {3A8598D6-F354-4B33-84C9-9CEAA91C3177}
 		{72409B0B-97E2-42A1-A9AC-C2FFDD8FAA46} = {3A8598D6-F354-4B33-84C9-9CEAA91C3177}
+		{D0FF5F98-B6B3-48C7-8E2C-1B5094F48A23} = {3A8598D6-F354-4B33-84C9-9CEAA91C3177}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6EF64AB-8BC6-41E6-BAD0-FE76DEC6B827}

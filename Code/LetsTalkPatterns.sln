@@ -65,6 +65,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{6E23
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command\Command.csproj", "{02248403-DFD4-437C-9E42-C3492F132A46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchedCommands", "Command\BatchedCommands\BatchedCommands.csproj", "{2481A3E4-FD19-49CA-9B4D-77C565E85F79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{02248403-DFD4-437C-9E42-C3492F132A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02248403-DFD4-437C-9E42-C3492F132A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02248403-DFD4-437C-9E42-C3492F132A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2481A3E4-FD19-49CA-9B4D-77C565E85F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2481A3E4-FD19-49CA-9B4D-77C565E85F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2481A3E4-FD19-49CA-9B4D-77C565E85F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2481A3E4-FD19-49CA-9B4D-77C565E85F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +192,7 @@ Global
 		{05B2A81D-4E63-4A12-8B18-EE4092E19B82} = {6EA0EB08-C337-4BA6-AD7A-1E0F6DFC0258}
 		{4D832C8F-FF86-44BF-811E-8BA45D74246C} = {31A9BF7D-D685-4761-854B-BE822C1DF002}
 		{02248403-DFD4-437C-9E42-C3492F132A46} = {6E231223-C631-41C4-BD41-141AF1CAE6BC}
+		{2481A3E4-FD19-49CA-9B4D-77C565E85F79} = {6E231223-C631-41C4-BD41-141AF1CAE6BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6EF64AB-8BC6-41E6-BAD0-FE76DEC6B827}

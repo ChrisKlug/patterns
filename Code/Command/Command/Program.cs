@@ -95,7 +95,7 @@ namespace Command
             }
         }
 
-        public static ConsoleColor ToColor(LogLevel level)
+        private static ConsoleColor ToColor(LogLevel level)
         {
             switch (level)
             {

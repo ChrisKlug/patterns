@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CricuitBreaker
+namespace CircuitBreaker
 {
     class HttpClientTestingHandler : HttpMessageHandler
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace CricuitBreaker
+namespace CircuitBreaker
 {
     static class RequestHelper
     {
